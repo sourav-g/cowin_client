@@ -39,7 +39,6 @@
 	var requestCOWIN = async (cowinAPIURL) => {
 		const response = await fetch(cowinAPIURL,{
 			headers: {
-				'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJjNzdjMzkwYi1jOTZkLTQ3NWItYmY0MC02ZTE5YTFkOGU1YjUiLCJ1c2VyX2lkIjoiYzc3YzM5MGItYzk2ZC00NzViLWJmNDAtNmUxOWExZDhlNWI1IiwidXNlcl90eXBlIjoiQkVORUZJQ0lBUlkiLCJtb2JpbGVfbnVtYmVyIjo4NjE4MTg2OTQ2LCJiZW5lZmljaWFyeV9yZWZlcmVuY2VfaWQiOjc4NjQ4MzM1NzgyMTcwLCJzZWNyZXRfa2V5IjoiYjVjYWIxNjctNzk3Ny00ZGYxLTgwMjctYTYzYWExNDRmMDRlIiwic291cmNlIjoiY293aW4iLCJ1YSI6Ik1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS85MC4wLjQ0MzAuMjEyIFNhZmFyaS81MzcuMzYiLCJkYXRlX21vZGlmaWVkIjoiMjAyMS0wNi0wM1QxMzoxNzowMi4zMDFaIiwiaWF0IjoxNjIyNzI2MjIyLCJleHAiOjE2MjI3MjcxMjJ9.yLCzjD2iCiCPpdAmLfeKfgqkQ3tRSRp34Etz0rc_xqw',
 				'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
 			}
 		});
