@@ -58,7 +58,9 @@
 				a = requestCOWIN(url);
 				for (c in a.centers) {
 					for (s in a.centers[c].sessions) {
-						if (a.centers[c].sessions[s].min_age_limit == 45 && a.centers[c].sessions[s].available_capacity_dose2 > 0 ) {
+						//This if condition can be changed based on specific requirements
+						//To make it more user-friendly
+						if (a.centers[c].sessions[s].min_age_limit == 18 && a.centers[c].sessions[s].available_capacity_dose1 > 0 ) {
 							var audio = new Audio('https://media.geeksforgeeks.org/wp-content/uploads/20190531135120/beep.mp3');
 							audio.play();
 							console.log("Center :", a.centers[c].pincode, a.centers[c].name);
